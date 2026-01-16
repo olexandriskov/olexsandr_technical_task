@@ -21,6 +21,6 @@ public class FishDto {
 	private String name;
 	@Min(0)
 	private double price;
-	@Size(max = 10, message = "{fish.images.max_size}")//обмеження на кількість файлів, обмеження на типи файлів
+	@Size(max = 10, message = "{fish.images.max_size}")
 	private List<MultipartFile> imageFiles;
 }
