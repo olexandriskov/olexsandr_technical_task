@@ -1,0 +1,16 @@
+target/
+*.class
+*.jar
+*.war
+*.ear
+
+.idea/
+*.iml
+out/
+gen/
+
+*.log
+
+.DS_Store
+Thumbs.db
+.PVS-Studio/
